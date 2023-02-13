@@ -1,0 +1,295 @@
+/*Header*/
+
+/*Navbar*/
+
+/*footer*/
+.container-fluid.footer1 {
+  margin-top: 10px;
+  background-color: #232323;
+}
+.container-fluid.footer1 > .container {
+  margin-top: 10px;
+}
+.container-fluid.footer1 > .container > hr {
+  border-color: #393939;
+}
+.copyright-text p {
+  margin-top: 3px;
+  color: #bebebe;
+  margin-bottom: 0;
+}
+.sosyalbutonlar {
+  display: inline-block;
+  position: relative;
+}
+.sosyalbutonlar a {
+  text-decoration: none;
+  color: #bebebe;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding-top: 2px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  float: right;
+  transition-duration: 1s;
+  transition: all 0.7s linear;
+}
+.sosyalbutonlar .facebook:hover {
+  background: #3b5998;
+  color: #fff;
+}
+
+.sosyalbutonlar .twitter:hover {
+  background: #00aced;
+  color: #fff;
+}
+.sosyalbutonlar .instagram:hover {
+  background: #b50b20;
+  color: #fff;
+}
+.footer-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin-top: 25px;
+}
+.list-unstyled .footer-link {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  /* transition: 300ms; */
+  text-decoration: none;
+  transition: color;
+}
+.list-unstyled .footer-link:hover {
+  color: #22d05d;
+  text-decoration: none;
+}
+.list-unstyled li {
+  padding-top: 5px;
+}
+.list-unstyled .footer-text {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  transition: 300ms;
+}
+.footerSpanTextMargin {
+  margin-left: 5px;
+}
+.footerSpanIconColor {
+  color: white;
+}
+.footermail {
+  color: white;
+  margin-right: 5px;
+}
+
+.topbar-link a {
+  text-decoration: none;
+  color: #606060;
+  margin: 10px;
+  padding: 0;
+}
+.topbar-link a:hover {
+  color: #000;
+}
+
+.topbar-link a:active {
+  background-color: #fff;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+.container-fluid.footer1 {
+  margin-top: 10px;
+  background-color: #232323;
+}
+.container-fluid.footer1 > .container {
+  margin-top: 10px;
+}
+.container-fluid.footer1 > .container > hr {
+  border-color: #393939;
+}
+
+.footer-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin-top: 25px;
+}
+.list-unstyled .footer-link {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  transition: 300ms;
+}
+.list-unstyled .footer-link:hover {
+  color: #22d05d;
+  text-decoration: none;
+}
+.list-unstyled li {
+  padding-top: 5px;
+}
+.list-unstyled .footer-text {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  transition: 300ms;
+}
+.copyright-text p {
+  margin-top: 3px;
+  color: #bebebe;
+  margin-bottom: 0;
+}
+.sosyalbutonlar {
+  display: inline-block;
+  position: relative;
+}
+.sosyalbutonlar a {
+  text-decoration: none;
+  color: #bebebe;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding-top: 2px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  float: right;
+  transition-duration: 1s;
+  transition: all 0.7s linear;
+}
+
+.sosyalbutonlar .facebook:hover {
+  background: #3b5998;
+  color: #fff;
+}
+
+.sosyalbutonlar .twitter:hover {
+  background: #00aced;
+  color: #fff;
+}
+.sosyalbutonlar .instagram:hover {
+  background: #b50b20;
+  color: #fff;
+}
+
+.urun-cerceve {
+  border: 1px solid #ddd;
+  padding: 5px;
+  padding-bottom: 8px;
+  transition: all 0.3s linear;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+.urun-cerceve:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.urun-resim img {
+  width: 100%;
+  height: 250px;
+  transition: all 0.3s linear;
+}
+.urun-resim img:hover {
+  opacity: 0.8;
+}
+.urun-metin {
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+.urun-metin a {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.urun-metin a:hover {
+  color: #5d5d5d;
+  text-decoration: none;
+}
+.urun-bottom {
+  padding: 5px;
+}
+.urun-eski-fiyat {
+  font-style: normal;
+  color: #121212;
+  font-size: 15px;
+  font-weight: 600;
+}
+.urun-yeni-fiyat {
+  font-style: normal;
+  color: #f6840a;
+  font-size: 19px;
+  font-weight: 900;
+  padding-left: 5px;
+}
+.btn-incele {
+  background: #e9e9e9;
+  float: left;
+  width: 40%;
+  height: 36px;
+  overflow: hidden;
+
+  border: 0px;
+  border-radius: 6px;
+  text-align: center;
+  color: #5d5d5d;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  float: right;
+  margin-top: -8px;
+}
+.menu-stil > li:hover {
+  background-color: #606060;
+  transition: all 0.3s linear;
+}
+
+.menu-stil > li > a {
+  font-weight: 600;
+
+  color: black;
+  transition: all 0.3s linear;
+  text-align: center;
+
+  font-weight: bold;
+  color: #000;
+
+  transition: all 0.3s ease;
+  letter-spacing: 1.4px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15x;
+}
+.menu-stil > li > a:hover {
+  color: white;
+}

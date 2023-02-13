@@ -1,0 +1,145 @@
+/*Header*/
+.marginRight5 {
+  margin-right: 5px;
+}
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  color: black;
+  margin-top: 2%;
+}
+.rightDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.rightDivItem {
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color;
+  color: black;
+}
+.searchDiv {
+  width: 25%;
+}
+.spanSepet {
+  background-color: gray;
+  margin-left: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.header-link:hover {
+  color: #22d05d;
+  text-decoration: none;
+}
+.logo {
+}
+
+/*Navbar*/
+.navbarContainer {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.navbarBody {
+  display: flex;
+  justify-content: space-around;
+}
+.itemText {
+  color: white;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #22d05d;
+  text-decoration: none;
+}
+
+/*footer*/
+.container-fluid.footer1 {
+  margin-top: 10px;
+  background-color: #232323;
+}
+.container-fluid.footer1 > .container {
+  margin-top: 10px;
+}
+.container-fluid.footer1 > .container > hr {
+  border-color: #393939;
+}
+.copyright-text p {
+  margin-top: 3px;
+  color: #bebebe;
+  margin-bottom: 0;
+}
+.sosyalbutonlar {
+  display: inline-block;
+  position: relative;
+}
+.sosyalbutonlar a {
+  text-decoration: none;
+  color: #bebebe;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding-top: 2px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  float: right;
+  transition-duration: 1s;
+  transition: all 0.7s linear;
+}
+.sosyalbutonlar .facebook:hover {
+  background: #3b5998;
+  color: #fff;
+}
+
+.sosyalbutonlar .twitter:hover {
+  background: #00aced;
+  color: #fff;
+}
+.sosyalbutonlar .instagram:hover {
+  background: #b50b20;
+  color: #fff;
+}
+.footer-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin-top: 25px;
+}
+.list-unstyled .footer-link {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  /* transition: 300ms; */
+  text-decoration: none;
+  transition: color;
+}
+.list-unstyled .footer-link:hover {
+  color: #22d05d;
+  text-decoration: none;
+}
+.list-unstyled li {
+  padding-top: 5px;
+}
+.list-unstyled .footer-text {
+  color: #979797;
+  font-size: 14px;
+  line-height: 14px;
+  transition: 300ms;
+}
+.footerSpanTextMargin {
+  margin-left: 5px;
+}
+.footerSpanIconColor {
+  color: white;
+}
+.footermail {
+  color: white;
+  margin-right: 5px;
+}
